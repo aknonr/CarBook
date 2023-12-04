@@ -1,0 +1,42 @@
+﻿using CarBook.Application.Features.CQRS.Commands.BrandCommand;
+
+using CarBook.Application.Features.CQRS.Commands.CarCommands;
+using CarBook.Application.İnterfaces;
+using CarBook.Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
+{
+    public class UpdateCarCommandHandler
+    {
+
+        private readonly IReporsitory<Car> _repository;
+
+        public UpdateCarCommandHandler(IReporsitory<Car> repository)
+        {
+            _repository = repository;
+        }
+
+
+
+        public async Task Handle(UpdateCarCommand command)
+        {
+            var values = await _repository.GetByIdAsync(command.BranID);
+            values.Fuel = command.Fuel;
+            values.Transmission = command.Transmission;
+            values.BigImageUrl = command.BigImageUrl;
+            values.BranID = command.BranID;
+            values.CoverImageUrl = command.CoverImageUrl;
+            values.Km=command.Km;
+            values.Luggage = command.Luggage;
+            values.Model = command.Model;
+            values.Seat = command.Seat;
+            await _repository.UpdateAsync(values);
+        }
+
+    }
+}

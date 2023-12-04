@@ -1,0 +1,15 @@
+﻿Bu katman persistence katamnı bağlantı adreslerini ve bazı repoların interfacelerini tuttacağımız yerdir
+
+
+Buraya 4 adet paket kuracağız. Migrations yapacağımız katmandır..
+1-Microsoft.EntityFrameworkCore
+2-Microsoft.EntityFrameworkCore.Design
+3-Microsoft.EntityFrameworkCore.SqlServer
+4-Microsoft.EntityFrameworkCore.Tools
+
+Ardından bu katmana Referance vereceğiz 
+Project Referance kısmından CarBook.Domain'e Referance vereceğiz. Domain kullanmamız gerekiyor çünkü biz burda entities'leri DBset olarak kullancağız...
+
+Ardından carbookContext sınıfında sql'e bağlantı sağlanabilmesi için yolunu belirliyecez ardından entities oluşturduğumuz sınıfları burada dbset yapıp tabloları belirleyeceğiz...
+
+ve migrations yapacağız ... Aşağıda Migration Adımları=>

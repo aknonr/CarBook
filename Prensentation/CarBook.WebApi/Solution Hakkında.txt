@@ -1,0 +1,11 @@
+﻿Paket yüklemesi yapılacak bu katmana 
+
+1=>Microsoft.EntityFrameworkCore.Design
+
+
+
+Katmanının diğer katmanalara reference verme 
+Persistence reference vereceğiz 
+
+
+ARDINDAN BU KATMANI Migration yaapcağız çünkü bizim context sınıfımız bu katmanın içinde ..

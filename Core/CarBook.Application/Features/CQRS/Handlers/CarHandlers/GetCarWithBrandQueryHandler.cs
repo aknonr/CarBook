@@ -1,0 +1,50 @@
+﻿using CarBook.Application.Features.CQRS.Results.CarResults;
+using CarBook.Application.İnterfaces;
+using CarBook.Application.İnterfaces.CarInterfaces;
+using CarBook.Domain.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
+{
+    public class GetCarWithBrandQueryHandler
+    {
+        private readonly ICarRepository _repository;
+
+        public GetCarWithBrandQueryHandler(ICarRepository repository)
+        {
+            _repository = repository;
+        }
+
+    
+
+        public  List<GetCarWithBrandQueryResult> Handle()
+        {
+
+            //Burada diğer GetCarQueryHandler sınıfında farkı include metoduna ihtiyacımız olacak
+            var values =  _repository.GetCarListWithBrands();
+            return values.Select(x => new GetCarWithBrandQueryResult
+            {
+                BrandName=x.Brand.Name,
+                BranID = x.BranID,
+                BigImageUrl = x.BigImageUrl,
+                CarID = x.CarID,
+                CoverImageUrl = x.CoverImageUrl,
+                Fuel = x.Fuel,
+                Km = x.Km,
+                Luggage = x.Luggage,
+                Model = x.Model,
+                Seat = x.Seat,
+                Transmission = x.Transmission,
+
+
+
+
+            }).ToList();
+        }
+
+    }
+}

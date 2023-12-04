@@ -1,0 +1,1 @@
+﻿Persistance katmanı bizim bağlantıa adresimiz baze rpo
