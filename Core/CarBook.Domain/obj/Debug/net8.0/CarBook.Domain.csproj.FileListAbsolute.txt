@@ -9,3 +9,4 @@ C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Domain
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Domain\obj\Debug\net8.0\refint\CarBook.Domain.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Domain\obj\Debug\net8.0\CarBook.Domain.pdb
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Domain\obj\Debug\net8.0\ref\CarBook.Domain.dll
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Domain\obj\Debug\net8.0\CarBook.Domain.sourcelink.json

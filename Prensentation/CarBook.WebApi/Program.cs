@@ -3,6 +3,7 @@ using CarBook.Application.Features.CQRS.Handlers.BannerHandlers;
 using CarBook.Application.Features.CQRS.Handlers.BrandHandlers;
 using CarBook.Application.Features.CQRS.Handlers.CarHandlers;
 using CarBook.Application.Features.CQRS.Handlers.CategoryHandlers;
+using CarBook.Application.Features.CQRS.Handlers.ContactHandlers;
 using CarBook.Application.Ýnterfaces;
 using CarBook.Application.Ýnterfaces.CarInterfaces;
 
@@ -49,6 +50,14 @@ builder.Services.AddScoped<GetCategoryByIdQueryHandler>();
 builder.Services.AddScoped<CreateCategoryCommandHandler>();
 builder.Services.AddScoped<UpdateCategoryCommandHandler>();
 builder.Services.AddScoped<RemoveCategoryCommandHandler>();
+
+
+builder.Services.AddScoped<GetContactQueryHandler>();//Api controller yaptýktan sonra program.cs yazacaðýmýz servis iþlemleri
+builder.Services.AddScoped<GetContactByIdQueryHandler>();
+builder.Services.AddScoped<CreateContactCommandHandler>();
+builder.Services.AddScoped<UpdateContactCommandHandler>();
+builder.Services.AddScoped<RemoveContactCommandHandler>();
+
 
 
 builder.Services.AddControllers();

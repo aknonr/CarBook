@@ -140,3 +140,4 @@ C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBo
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\ref\CarBook.WebApi.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\bin\Debug\net8.0\CarBook.Application.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\bin\Debug\net8.0\CarBook.Application.pdb
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\CarBook.WebApi.sourcelink.json
