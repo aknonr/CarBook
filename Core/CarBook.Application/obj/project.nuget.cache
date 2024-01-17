@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "eGwS8nS6QfSdQOi8M0yt5G+qRi5PIHbn4JDF5k+g7On0/S5T335iAoJ/2gYRnQAe9SUBAyTdiGzZIN+GaGDSfQ==",
+  "dgSpecHash": "HZxbdbF5TwLPn+Hx11LEIc1/vUfPmOjuaZ3+8K7iJQQbGP1iRGTjLVsnr4ATblOK3av/fpg0mRyKeoKgE3ejug==",
   "success": true,
   "projectFilePath": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\CarBook.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aknon\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\aknon\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\aknon\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "C:\\Users\\aknon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\aknon\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\aknon\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\aknon\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
   "logs": [
     {
