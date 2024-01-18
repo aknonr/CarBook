@@ -8,17 +8,16 @@ namespace CarBook.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FooterAddressController : ControllerBase
+    public class FooterAddressesController : ControllerBase
     {
         private readonly IMediator _mediator;
 
-        public FooterAddressController(IMediator mediator)
+        public FooterAddressesController(IMediator mediator)
         {
             _mediator = mediator;
         }
 
         [HttpGet]
-
         public async Task<IActionResult> FooterAddressList()
         {
             var values = await _mediator.Send(new GetFooterAddressQuery());
@@ -26,15 +25,14 @@ namespace CarBook.WebApi.Controllers
         }
 
         [HttpPost]
-
-        public async Task<IActionResult> CreaFooterAddress(CreateFooterAddressCommand command)
+        public async Task<IActionResult> CreateFooterAddress(CreateFooterAddressCommand command)
         {
 
             await _mediator.Send(command);
             return Ok("Alt Adres Bilgisi Eklendi");
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
 
         public async Task<IActionResult> GetFoooterAddress(int id)
         {
