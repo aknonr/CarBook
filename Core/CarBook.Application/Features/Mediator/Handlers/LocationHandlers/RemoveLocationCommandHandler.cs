@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.Mediator.Handlers.LocationHandlers
-{
+{ 
     public class RemoveLocationCommandHandler : IRequestHandler<RemoveLocationCommand>
     {
         private readonly IReporsitory<Location> _repository;
