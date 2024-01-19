@@ -1,0 +1,12 @@
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\bin\Debug\net8.0\CarBook.DTO.deps.json
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\bin\Debug\net8.0\CarBook.DTO.dll
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\bin\Debug\net8.0\CarBook.DTO.pdb
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.AssemblyInfoInputs.cache
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.AssemblyInfo.cs
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.csproj.CoreCompileInputs.cache
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.sourcelink.json
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.dll
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\refint\CarBook.DTO.dll
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\CarBook.DTO.pdb
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.DTO\obj\Debug\net8.0\ref\CarBook.DTO.dll

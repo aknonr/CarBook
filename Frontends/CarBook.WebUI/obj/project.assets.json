@@ -2334,6 +2334,16 @@
             "rid": "win"
           }
         }
+      },
+      "CarBook.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CarBook.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CarBook.DTO.dll": {}
+        }
       }
     }
   },
@@ -6471,10 +6481,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CarBook.DTO/1.0.0": {
+      "type": "project",
+      "path": "../CarBook.DTO/CarBook.DTO.csproj",
+      "msbuildProject": "../CarBook.DTO/CarBook.DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CarBook.DTO >= 1.0.0",
       "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter >= 8.0.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.0"
     ]
@@ -6510,7 +6526,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.DTO\\CarBook.DTO.csproj": {
+              "projectPath": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.DTO\\CarBook.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
