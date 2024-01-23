@@ -14,9 +14,9 @@ namespace CarBook.WebUI.ViewComponents.AboutViewComponents
             _httpClientFactory = httpClientFactory;
         }
 
-        public async  Task<IViewComponentResult> InvokeAsync()
+        public async Task<IViewComponentResult> InvokeAsync()
         {
-            //InvokeAsync adında bir asenkron metot tanımladık ve  Bu metot, bir IViewComponentResult döndürmektedir, bu genellikle bir view component'in sonucudur.
+            //InvokeAsync adında bir asenkron metot tanımladık ve  Bu metot, bir IViewComponentResult döndürmektedir, bu genellikle bir view component'in sonucunda olur.
             //IHttpClientFactory kullanılarak bir HttpClient örneği oluşturulur. Bu, IHttpClientFactory'nin sağladığı avantajlardan biridir. Yeni bir HttpClient oluşturmak yerine, var olanları kullanarak performansı artırır.
 
             var client =_httpClientFactory.CreateClient();
