@@ -13,7 +13,7 @@ using CarBook.Persistence.Repositories.CarRepositories;
 using CarBook.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddHttpClient();
 // Add services to the container.
 builder.Services.AddScoped<CarBookContext>();
 builder.Services.AddScoped(typeof(IReporsitory<>),typeof(Repository<>));
