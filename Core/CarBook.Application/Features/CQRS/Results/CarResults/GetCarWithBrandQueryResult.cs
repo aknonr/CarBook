@@ -10,7 +10,7 @@ namespace CarBook.Application.Features.CQRS.Results.CarResults
     {
 
         public int CarID { get; set; }
-        public int BranID { get; set; }
+        public int BrandID { get; set; }
         public string BrandName { get; set; } //Burada amaç biz arabaları marka ismine göre çağırmak istiyoruz o yüzden bu property yaptık... Bunun Brand Resultta bir karşlığı olmayacak sadece listleme işlemi için kullanacağız..
         public string Model { get; set; }
         public string CoverImageUrl { get; set; }

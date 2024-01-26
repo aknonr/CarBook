@@ -25,15 +25,15 @@ namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
         {
             await _repository.CreateAsync(new Car
             {
-
                 BigImageUrl = command.BigImageUrl,
-                Km=command.Km,  
-                Model=command.Model,
+                Luggage = command.Luggage,
+                Km = command.Km,
+                Model = command.Model,
                 Seat = command.Seat,
-                Transmission=command.Transmission,
-                CoverImageUrl=command.CoverImageUrl,
-                BranID=command.BranID,
-                 Fuel=command.Fuel,
+                Transmission = command.Transmission,
+                CoverImageUrl = command.CoverImageUrl,
+                BrandID = command.BrandID,
+                Fuel = command.Fuel
 
             });
         }

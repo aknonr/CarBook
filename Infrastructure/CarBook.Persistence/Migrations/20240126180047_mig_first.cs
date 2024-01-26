@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CarBook.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class CarBookDb : Migration
+    public partial class mig_first : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -192,7 +192,7 @@ namespace CarBook.Persistence.Migrations
                 {
                     CarID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    BranID = table.Column<int>(type: "int", nullable: false),
+                    BrandID = table.Column<int>(type: "int", nullable: false),
                     Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CoverImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Km = table.Column<int>(type: "int", nullable: false),
@@ -200,8 +200,7 @@ namespace CarBook.Persistence.Migrations
                     Seat = table.Column<byte>(type: "tinyint", nullable: false),
                     Luggage = table.Column<byte>(type: "tinyint", nullable: false),
                     Fuel = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BigImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    BrandID = table.Column<int>(type: "int", nullable: false)
+                    BigImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

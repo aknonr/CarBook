@@ -26,7 +26,7 @@ namespace CarBook.Application.Features.CQRS.Handlers.CarHandlers
 
             return new GetCarByIdQueryResult
             {
-                BranID=values.BranID,
+                BrandID=values.BrandID,
                 BigImageUrl=values.BigImageUrl,
                 CoverImageUrl=values.CoverImageUrl,
                 Fuel = values.Fuel,

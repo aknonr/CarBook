@@ -11,7 +11,7 @@ namespace CarBook.Domain.Entities
     {
 
         public int CarID { get; set; }
-        public int BranID { get; set; }
+        public int BrandID { get; set; }
         public string Model { get; set; }
         public string CoverImageUrl { get; set; } //Kapak fotoğrafı için
         public int Km { get; set; }
