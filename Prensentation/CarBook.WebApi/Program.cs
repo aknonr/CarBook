@@ -45,6 +45,7 @@ builder.Services.AddScoped<CreateCarCommandHandler>();
 builder.Services.AddScoped<UpdateCarCommandHandler>();
 builder.Services.AddScoped<RemoveCarCommandHandler>();
 builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
+builder.Services.AddScoped<GetLast5CarsWithBrandQueryHandler>();
 
 builder.Services.AddScoped<GetCategoryQueryHandler>();//Api controller yaptýktan sonra program.cs yazacaðýmýz servis iþlemleri
 builder.Services.AddScoped<GetCategoryByIdQueryHandler>();
