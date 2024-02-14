@@ -231,9 +231,9 @@ C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.W
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\scopedcss\bundle\CarBook.WebUI.styles.css
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\scopedcss\projectbundle\CarBook.WebUI.bundle.scp.css
-C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\CarBook.WebUI.csproj.CopyComplete
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\CarBook.WebUI.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\refint\CarBook.WebUI.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\CarBook.WebUI.pdb
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\CarBook.WebUI.genruntimeconfig.cache
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\ref\CarBook.WebUI.dll
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI\obj\Debug\net8.0\CarBook..7B7C417C.Up2Date

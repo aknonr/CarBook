@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\prensentation\\carbook.webapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|solutionrelative:prensentation\\carbook.webapi\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\prensentation\\carbook.webapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|solutionrelative:prensentation\\carbook.webapi\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A410E2E-5F05-4946-99DC-458C8ABE356E}|Core\\CarBook.Domain\\CarBook.Domain.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\core\\carbook.domain\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A410E2E-5F05-4946-99DC-458C8ABE356E}|Core\\CarBook.Domain\\CarBook.Domain.csproj|solutionrelative:core\\carbook.domain\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LocationsController.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\LocationsController.cs",
-              "RelativeDocumentMoniker": "Prensentation\\CarBook.WebApi\\Controllers\\LocationsController.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\LocationsController.cs",
-              "RelativeToolTip": "Prensentation\\CarBook.WebApi\\Controllers\\LocationsController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAwwD4AAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T14:42:35.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthorsController.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\AuthorsController.cs",
-              "RelativeDocumentMoniker": "Prensentation\\CarBook.WebApi\\Controllers\\AuthorsController.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\AuthorsController.cs",
-              "RelativeToolTip": "Prensentation\\CarBook.WebApi\\Controllers\\AuthorsController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAwwD0AAAAAAAAA",
+              "Title": "Banner.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Domain\\Entities\\Banner.cs",
+              "RelativeDocumentMoniker": "Core\\CarBook.Domain\\Entities\\Banner.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Domain\\Entities\\Banner.cs",
+              "RelativeToolTip": "Core\\CarBook.Domain\\Entities\\Banner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T14:42:27.648Z",
+              "WhenOpened": "2024-02-14T15:44:55.076Z",
               "EditorCaption": ""
             }
           ]
