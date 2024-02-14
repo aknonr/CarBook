@@ -1,5 +1,5 @@
 ﻿using CarBook.Application.Features.Mediator.Queries.LocationQueries;
-using CarBook.Application.Features.Mediator.Results.FeatureResults;
+
 using CarBook.Application.Features.Mediator.Results.LocationResult;
 using CarBook.Application.İnterfaces;
 using CarBook.Domain.Entities;
@@ -12,11 +12,11 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.Mediator.Handlers.LocationHandlers
 {
-    public class GetTestimonialQueryHandler : IRequestHandler<GetLocationQuery, List<GetLocationQueryResult>>
+    public class GetLocationQueryHandler : IRequestHandler<GetLocationQuery, List<GetLocationQueryResult>>
     {
         private readonly IReporsitory<Location> _repository;
 
-        public GetTestimonialQueryHandler(IReporsitory<Location> repository)
+        public GetLocationQueryHandler(IReporsitory<Location> repository)
         {
             _repository = repository;
         }

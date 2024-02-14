@@ -12,9 +12,9 @@ C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarB
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.AssemblyInfo.cs
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.csproj.CoreCompileInputs.cache
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.sourcelink.json
-C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.csproj.CopyComplete
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\refint\CarBook.Persistence.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.pdb
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook.Persistence.genruntimeconfig.cache
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\ref\CarBook.Persistence.dll
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Infrastructure\CarBook.Persistence\obj\Debug\net8.0\CarBook..02F0496D.Up2Date

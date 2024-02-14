@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.Mediator.Handlers.LocationHandlers
 {
-    public class CreateTestimonialCommandHandler : IRequestHandler<CreateLocationCommand>
+    public class CreateLocationCommandHandler : IRequestHandler<CreateLocationCommand>
     {
         private readonly IReporsitory<Location> _repository;
 
-        public CreateTestimonialCommandHandler(IReporsitory<Location> repository)
+        public CreateLocationCommandHandler(IReporsitory<Location> repository)
         {
             _repository = repository;
         }
@@ -23,7 +23,7 @@ namespace CarBook.Application.Features.Mediator.Handlers.LocationHandlers
         {
             await _repository.CreateAsync(new Location
             {
-                Name = request.Name,
+                Name = request.Name
             });
         }
     }

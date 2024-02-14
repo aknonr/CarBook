@@ -16,4 +16,12 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Application\Features\Mediator\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Application\Features\Mediator\.editorconfig" />
+  </ItemGroup>
+
 </Project>

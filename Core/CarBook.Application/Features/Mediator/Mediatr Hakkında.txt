@@ -1,0 +1,5 @@
+﻿IRequest<TResponse> arabirimi, MediatR kütüphanesinde komutlar ve sorgular için bir standart belirler. Bu arabirim, bir isteğin (komut veya sorgu) sonucunda döndürülecek yanıt türünü belirtir. Yani, bu arabirim, bir sorgu veya komutun sonucunun ne olacağını belirlemeye yardımcı olur.
+
+Bir sınıf IRequest<TResponse> arabirimini uygularsa, o sınıf MediatR tarafından bir sorgu veya komut olarak tanınır. MediatR, bu arabirimi uygulayan sınıfları tanır ve onlara özel bir işlem uygular. Örneğin, bir sorgu için sorgunun işlenmesi ve sonucunun döndürülmesi gibi.
+
+Bu nedenle, IRequest<TResponse> arabirimini miras alarak, bir sınıfın bir isteği (komut veya sorgu) temsil ettiği ve bu isteğin sonucunda döndürülecek yanıt türünün belirtildiği belirtilmiş olur. Bu da MediatR tarafından doğru şekilde işlenmelerini sağlar.
