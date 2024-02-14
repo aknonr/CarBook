@@ -1,6 +1,5 @@
-﻿using CarBook.Application.Features.Mediator.Queries.LocationQueries;
-using CarBook.Application.Features.Mediator.Results.FeatureResults;
-using CarBook.Application.Features.Mediator.Results.LocationResult;
+﻿using CarBook.Application.Features.Mediator.Queries.AuthorQueries;
+using CarBook.Application.Features.Mediator.Results.AuthorResult;
 using CarBook.Application.İnterfaces;
 using CarBook.Domain.Entities;
 using MediatR;
@@ -10,24 +9,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarBook.Application.Features.Mediator.Handlers.LocationHandlers
+namespace CarBook.Application.Features.Mediator.Handlers.AuthorHandlers
 {
-    public class GetTestimonialQueryHandler : IRequestHandler<GetLocationQuery, List<GetLocationQueryResult>>
+    public class GetAuthorQueryHandler : IRequestHandler<GetAuthorQuery, List<GetAuthorQueryResult>>
     {
-        private readonly IReporsitory<Location> _repository;
+        private readonly IReporsitory<Author> _repository;
 
-        public GetTestimonialQueryHandler(IReporsitory<Location> repository)
+        public GetAuthorQueryHandler(IReporsitory<Author> repository)
         {
             _repository = repository;
         }
 
-        public async Task<List<GetLocationQueryResult>> Handle(GetLocationQuery request, CancellationToken cancellationToken)
+        public async Task<List<GetAuthorQueryResult>> Handle(GetAuthorQuery request, CancellationToken cancellationToken)
         {
             var values = await _repository.GetAllAsync();
-            return values.Select(x => new GetLocationQueryResult
+            return values.Select(x => new GetAuthorQueryResult
             {
                 Name = x.Name,
-                LocationID = x.LocationID,
+                AuthorID = x.AuthorID,
+                Description = x.Description,
+                ImageUrl= x.ImageUrl,
 
             }).ToList();
         }

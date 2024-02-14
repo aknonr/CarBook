@@ -1,5 +1,4 @@
 ﻿using CarBook.Application.Features.Mediator.Commands.AuthorCommand;
-
 using CarBook.Application.İnterfaces;
 using CarBook.Domain.Entities;
 using MediatR;
@@ -25,6 +24,9 @@ namespace CarBook.Application.Features.Mediator.Handlers.AuthorHandlers
             await _repository.CreateAsync(new Author
             {
                 Name = request.Name,
+                Description = request.Description,
+                ImageUrl = request.ImageUrl,
+              
             });
         }
     }
