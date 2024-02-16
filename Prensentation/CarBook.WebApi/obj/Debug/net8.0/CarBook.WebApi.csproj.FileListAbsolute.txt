@@ -138,9 +138,9 @@ C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBo
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarBook.WebApi.props
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\scopedcss\bundle\CarBook.WebApi.styles.css
+C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\CarBook..CB6188D5.Up2Date
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\CarBook.WebApi.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\refint\CarBook.WebApi.dll
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\CarBook.WebApi.pdb
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\CarBook.WebApi.genruntimeconfig.cache
 C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\ref\CarBook.WebApi.dll
-C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Prensentation\CarBook.WebApi\obj\Debug\net8.0\CarBook..CB6188D5.Up2Date

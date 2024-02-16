@@ -11,6 +11,9 @@ using CarBook.Persistence.Context;
 using CarBook.Persistence.Repositories;
 using CarBook.Persistence.Repositories.CarRepositories;
 using CarBook.Application.Services;
+using CarBook.Application.Features.Mediator.Handlers.BlogHandlers;
+using CarBook.Application.Interfaces.BlogInterfaces;
+using CarBook.Persistence.Repositories.BlogRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();
@@ -18,6 +21,8 @@ builder.Services.AddHttpClient();
 builder.Services.AddScoped<CarBookContext>();
 builder.Services.AddScoped(typeof(IReporsitory<>),typeof(Repository<>));
 builder.Services.AddScoped(typeof(ICarRepository), typeof(CarRepository));
+builder.Services.AddScoped(typeof(IBlogRepository), typeof(BlogRepository));
+
 
 builder.Services.AddScoped<GetAboutQueryHandler>();//Api controller yaptýktan sonra program.cs yazacaðýmýz servis iþlemleri
 builder.Services.AddScoped<GetAboutByIdQueryHandler>();
@@ -59,6 +64,12 @@ builder.Services.AddScoped<GetContactByIdQueryHandler>();
 builder.Services.AddScoped<CreateContactCommandHandler>();
 builder.Services.AddScoped<UpdateContactCommandHandler>();
 builder.Services.AddScoped<RemoveContactCommandHandler>();
+
+builder.Services.AddScoped<GetBlogQueryHandler>();
+builder.Services.AddScoped<GetBlogByIdQueryHandler>();
+builder.Services.AddScoped<CreateBlogCommandHandler>();
+builder.Services.AddScoped<UpdateBlogCommandHandler>();
+builder.Services.AddScoped<RemoveBlogCommandHandler>();
 
 builder.Services.AddApplicationService(builder.Configuration);
 

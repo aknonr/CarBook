@@ -1,5 +1,6 @@
 ﻿using CarBook.Application.Features.Mediator.Commands.BlogCommands;
 using CarBook.Application.Features.Mediator.Queries.BlogQueries;
+using CarBook.Application.Features.Mediator.Results.BlogResult;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -58,6 +59,14 @@ namespace CarBook.WebApi.Controllers
             return Ok("Blog başarıyla güncellendi");
         }
 
+        [HttpGet("GetLast3BlogsWithAuthorsList")]
+
+        public async Task<IActionResult> GetLast3BlogsWithAuthorsList()
+        {
+            var values =await _mediator.Send(new GetLast3BlogsWithAuthorsQuery());
+
+            return Ok(values);
+        }
 
         //Mediator tasarım desenine ait CRUID işlemleri API ile birlikte yaptık.
     }
