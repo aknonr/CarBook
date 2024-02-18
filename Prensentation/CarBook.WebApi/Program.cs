@@ -14,6 +14,8 @@ using CarBook.Application.Services;
 using CarBook.Application.Features.Mediator.Handlers.BlogHandlers;
 using CarBook.Application.Interfaces.BlogInterfaces;
 using CarBook.Persistence.Repositories.BlogRepositories;
+using CarBook.Application.Interfaces.CarPricingInterfaces;
+using CarBook.Persistence.Repositories.CarPricingRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();  //AddHttpClient(): Bu metot, HttpClient sýnýfýnýn kullanýmýný saðlar ve HTTP istekleri yapmak için gereklidir. HTTP istekleri yapýlacak herhangi bir harici servis veya API'ye baðlanmak için gerekli olan bir bileþendir.
@@ -23,6 +25,9 @@ builder.Services.AddScoped(typeof(IReporsitory<>),typeof(Repository<>));
 builder.Services.AddScoped(typeof(ICarRepository), typeof(CarRepository));//Car repository 'den alýnan verileri swagger tarafýndan eriþilmesini saðlar 
 builder.Services.AddScoped(typeof(IBlogRepository), typeof(BlogRepository));
 //Yukarýdaki yapý bloglar arasýndaki ayrýmýný saðlar ve baðýmlýlýklarý soyutlamak için Ýnterface kullanýlmýþtý. Bu sayede, uygulamanýn farklý katmanlarý arasýndaki baðýmlýlýklar azaltýlarak, kodun daha okunabilir, bakýmý daha kolay ve test edilebilir hale gelir. Ayrýca, DI konteyneri aracýlýðýyla baðýmlýlýklarýn yönetimi saðlanýr ve gerektiðinde deðiþtirilebilir.
+
+builder.Services.AddScoped(typeof(ICarPricingRepository),typeof(CarPricingRepository));
+
 
 builder.Services.AddScoped<GetAboutQueryHandler>();//Api controller yaptýktan sonra program.cs yazacaðýmýz servis iþlemleri
 builder.Services.AddScoped<GetAboutByIdQueryHandler>();
@@ -51,6 +56,7 @@ builder.Services.AddScoped<UpdateCarCommandHandler>();
 builder.Services.AddScoped<RemoveCarCommandHandler>();
 builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
 builder.Services.AddScoped<GetLast5CarsWithBrandQueryHandler>();
+
 
 builder.Services.AddScoped<GetCategoryQueryHandler>();//Api controller yaptýktan sonra program.cs yazacaðýmýz servis iþlemleri
 builder.Services.AddScoped<GetCategoryByIdQueryHandler>();

@@ -15,6 +15,8 @@ namespace CarBook.WebUI.Controllers
 
         public async Task<IActionResult> Index()
         {
+            ViewBag.v1 = "Araçlarımız";
+            ViewBag.v2 = "Aracınızı Seçiniz";
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7049/api/Cars/GetCarWithBrand");//Burada araba modelleri ve Markalarınıda getirmiş olduk...
 

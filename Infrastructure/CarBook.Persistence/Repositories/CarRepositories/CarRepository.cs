@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,7 +30,9 @@ namespace CarBook.Persistence.Repositories.CarRepositories
             return values;
         }
 
-        public List<Car> Getlast5CarsWithBrands()
+		
+
+		public List<Car> Getlast5CarsWithBrands()
         {
             //Getlast5CarsWithBrands: Bu metot, en son eklenen 5 arabayı ve bunlara ait markaları içeren bir liste döndürür. OrderByDescending ile arabalar CarID'ye göre azalan sırayla sıralanır ve Take(5) ile ilk 5 öğe alınır. Aynı şekilde, arabaların marka bilgilerini içerir.
 
