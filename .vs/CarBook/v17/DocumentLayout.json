@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16C7788F-C521-4E35-9F9B-087B0371A54F}|Core\\CarBook.Application\\CarBook.Application.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\core\\carbook.application\\features\\mediator\\handlers\\locationhandlers\\getlocationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C7788F-C521-4E35-9F9B-087B0371A54F}|Core\\CarBook.Application\\CarBook.Application.csproj|solutionrelative:core\\carbook.application\\features\\mediator\\handlers\\locationhandlers\\getlocationqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\views\\car\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\views\\car\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\prensentation\\carbook.webapi\\controllers\\carpricingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|solutionrelative:prensentation\\carbook.webapi\\controllers\\carpricingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8930B65-50A0-408A-AF7C-CA24A7F28240}|Infrastructure\\CarBook.Persistence\\CarBook.Persistence.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\infrastructure\\carbook.persistence\\repositories\\carpricingrepositories\\carpricingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8930B65-50A0-408A-AF7C-CA24A7F28240}|Infrastructure\\CarBook.Persistence\\CarBook.Persistence.csproj|solutionrelative:infrastructure\\carbook.persistence\\repositories\\carpricingrepositories\\carpricingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\prensentation\\carbook.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|solutionrelative:prensentation\\carbook.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAD0B36B-F286-4206-A708-224B9370B183}|Frontends\\CarBook.DTO\\CarBook.DTO.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.dto\\carpricingdtos\\resultcarpricingwithcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAD0B36B-F286-4206-A708-224B9370B183}|Frontends\\CarBook.DTO\\CarBook.DTO.csproj|solutionrelative:frontends\\carbook.dto\\carpricingdtos\\resultcarpricingwithcardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C7788F-C521-4E35-9F9B-087B0371A54F}|Core\\CarBook.Application\\CarBook.Application.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\core\\carbook.application\\features\\mediator\\results\\carpricingresult\\getcarpricingwithcarqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C7788F-C521-4E35-9F9B-087B0371A54F}|Core\\CarBook.Application\\CarBook.Application.csproj|solutionrelative:core\\carbook.application\\features\\mediator\\results\\carpricingresult\\getcarpricingwithcarqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "Prensentation\\CarBook.WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Program.cs",
-              "RelativeToolTip": "Prensentation\\CarBook.WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T18:08:00.544Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Views\\Car\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-19T20:06:43.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CarPricingsController.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\CarPricingsController.cs",
-              "RelativeDocumentMoniker": "Prensentation\\CarBook.WebApi\\Controllers\\CarPricingsController.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\CarPricingsController.cs",
-              "RelativeToolTip": "Prensentation\\CarBook.WebApi\\Controllers\\CarPricingsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAADAAAA",
+              "Title": "CarPricingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Infrastructure\\CarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Infrastructure\\CarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "RelativeToolTip": "Infrastructure\\CarBook.Persistence\\Repositories\\CarPricingRepositories\\CarPricingRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T18:03:45.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T20:01:08.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetLocationQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\Features\\Mediator\\Handlers\\LocationHandlers\\GetLocationQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\CarBook.Application\\Features\\Mediator\\Handlers\\LocationHandlers\\GetLocationQueryHandler.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\Features\\Mediator\\Handlers\\LocationHandlers\\GetLocationQueryHandler.cs",
-              "RelativeToolTip": "Core\\CarBook.Application\\Features\\Mediator\\Handlers\\LocationHandlers\\GetLocationQueryHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "DocumentIndex": 2,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Controllers\\CarController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T16:38:49.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T19:58:19.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetCarPricingWithCarQueryResult.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\Features\\Mediator\\Results\\CarPricingResult\\GetCarPricingWithCarQueryResult.cs",
+              "RelativeDocumentMoniker": "Core\\CarBook.Application\\Features\\Mediator\\Results\\CarPricingResult\\GetCarPricingWithCarQueryResult.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\Features\\Mediator\\Results\\CarPricingResult\\GetCarPricingWithCarQueryResult.cs",
+              "RelativeToolTip": "Core\\CarBook.Application\\Features\\Mediator\\Results\\CarPricingResult\\GetCarPricingWithCarQueryResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T19:57:58.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultCarPricingWithCarDto.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.DTO\\CarPricingDtos\\ResultCarPricingWithCarDto.cs",
+              "RelativeDocumentMoniker": "Frontends\\CarBook.DTO\\CarPricingDtos\\ResultCarPricingWithCarDto.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.DTO\\CarPricingDtos\\ResultCarPricingWithCarDto.cs",
+              "RelativeToolTip": "Frontends\\CarBook.DTO\\CarPricingDtos\\ResultCarPricingWithCarDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T19:57:26.34Z"
             }
           ]
         }
