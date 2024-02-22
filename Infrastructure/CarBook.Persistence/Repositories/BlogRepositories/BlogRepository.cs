@@ -19,9 +19,15 @@ namespace CarBook.Persistence.Repositories.BlogRepositories
             _carBookContext = carBookContext;
         }
 
-        // Yukarıdaki Yapılan Const, "bağımlılık enjeksiyonu" prensibine uygun olarak, sınıfın bu bağımlılığı dışarıdan almasını sağlamaktır. Bu sayede, BlogRepository sınıfı, CarBookContext nesnesine doğrudan erişim sağlamaz; bunun yerine bu bağımlılık, sınıfın dışından enjekte edilir.
+		
 
-        public List<Blog> GetLast3BlogsWithAuthors()
+		// Yukarıdaki Yapılan Const, "bağımlılık enjeksiyonu" prensibine uygun olarak, sınıfın bu bağımlılığı dışarıdan almasını sağlamaktır. Bu sayede, BlogRepository sınıfı, CarBookContext nesnesine doğrudan erişim sağlamaz; bunun yerine bu bağımlılık, sınıfın dışından enjekte edilir.
+		public List<Blog> GetAllBlogsWithAuthors()
+		{
+			var values=_carBookContext.Blogs.Include(x=>x.Author).ToList();
+            return values;
+		}
+		public List<Blog> GetLast3BlogsWithAuthors()
         {
             var values = _carBookContext.Blogs.Include(x=>x.Author).OrderByDescending(x=>x.BlogID).Take(3) .ToList();
         //OrderByDescending: Verileri belirtilen bir özelliğe göre azalan sırada sıralar.

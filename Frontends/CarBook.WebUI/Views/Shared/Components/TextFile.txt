@@ -1,0 +1,1 @@
+﻿_NavbarUILayoutComponentPartial burada üst tarafta yer alan kategorilerin sekmelerini verdiğimiz yerler.
