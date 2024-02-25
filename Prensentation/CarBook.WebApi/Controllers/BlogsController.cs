@@ -77,6 +77,17 @@ namespace CarBook.WebApi.Controllers
 			return Ok(values);
 		}
 
-		//Mediator tasarım desenine ait CRUID işlemleri API ile birlikte yaptık.
-	}
+
+        [HttpGet("GetBlogByAuthorId")]
+
+        public async Task<IActionResult> GetBlogByAuthorId(int id)
+        {
+            var values = await _mediator.Send(new GetBlogByAuthorIdQuery(id));
+
+            return Ok(values);
+        }
+
+
+        //Mediator tasarım desenine ait CRUID işlemleri API ile birlikte yaptık.
+    }
 }

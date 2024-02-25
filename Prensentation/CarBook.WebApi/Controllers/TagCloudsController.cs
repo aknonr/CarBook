@@ -58,6 +58,13 @@ namespace CarBook.WebApi.Controllers
             return Ok("Etiket Bulutu  güncellendi");
         }
 
+        [HttpGet("GetTagCloudByBlogId")]
+
+        public async Task<IActionResult> GetTagCloudByBlogId(int id)
+        {
+         var values= await _mediator.Send(new GetTagCloudByBlogIdQuery(id));
+            return Ok(values);
+        }
 
         //Mediator tasarım desenine ait CRUID işlemleri API ile birlikte yaptık.
     }
