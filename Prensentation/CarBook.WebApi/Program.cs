@@ -18,6 +18,8 @@ using CarBook.Application.Interfaces.CarPricingInterfaces;
 using CarBook.Persistence.Repositories.CarPricingRepositories;
 using CarBook.Application.Interfaces.TagCloudInterfaces;
 using CarBook.Persistence.Repositories.TagCloudRepositories;
+using CarBook.Application.Features.RepositoryPattern;
+using CarBook.Persistence.Repositories.CommentRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient();  //AddHttpClient(): Bu metot, HttpClient sýnýfýnýn kullanýmýný saðlar ve HTTP istekleri yapmak için gereklidir. HTTP istekleri yapýlacak herhangi bir harici servis veya API'ye baðlanmak için gerekli olan bir bileþendir.
@@ -30,6 +32,7 @@ builder.Services.AddScoped(typeof(IBlogRepository), typeof(BlogRepository));
 
 builder.Services.AddScoped(typeof(ICarPricingRepository),typeof(CarPricingRepository));
 builder.Services.AddScoped(typeof(ITagCloudRepository),typeof(TagCloudRepository));
+builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(CommentRepository<>));
 
 
 builder.Services.AddScoped<GetAboutQueryHandler>();//Api controller yaptýktan sonra program.cs yazacaðýmýz servis iþlemleri
