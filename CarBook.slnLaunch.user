@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
