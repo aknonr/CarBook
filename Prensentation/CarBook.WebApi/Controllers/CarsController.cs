@@ -68,7 +68,7 @@ namespace CarBook.WebApi.Controllers
         }
 
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
 
         public async Task<IActionResult> RemoveCar(int id)
         {
