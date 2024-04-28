@@ -13,7 +13,13 @@ namespace CarBook.Application.Features.Mediator.Handlers.FeatureHandlers
     public class CreateFeatureCommandHandler : IRequestHandler<CreateFeatureCommand>
     {
         private readonly IReporsitory<Feature> _repository;
-     public async Task Handle(CreateFeatureCommand request, CancellationToken cancellationToken) //CancellationToken nedir: Ödeme işlemi gerçekleştirecez mesela ödeme esnasında tarayıcıyı kapattığımızda bu işlem iptal olsun mu gibi görev üstleniyor. 
+
+        public CreateFeatureCommandHandler(IReporsitory<Feature> repository)
+        {
+            _repository = repository;
+        }
+
+        public async Task Handle(CreateFeatureCommand request, CancellationToken cancellationToken) //CancellationToken nedir: Ödeme işlemi gerçekleştirecez mesela ödeme esnasında tarayıcıyı kapattığımızda bu işlem iptal olsun mu gibi görev üstleniyor. 
         {
             await _repository.CreateAsync(new Feature
             {

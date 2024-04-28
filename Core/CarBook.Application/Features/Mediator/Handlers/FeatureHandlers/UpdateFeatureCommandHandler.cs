@@ -12,18 +12,20 @@ namespace CarBook.Application.Features.Mediator.Handlers.FeatureHandlers
 {
     public class UpdateFeatureCommandHandler : IRequestHandler<UpdateFeatureCommand>
     {
+
         private readonly IReporsitory<Feature> _repository;
 
         public UpdateFeatureCommandHandler(IReporsitory<Feature> repository)
         {
-            _repository = repository;
+           _repository = repository;
         }
 
-        public async Task Handle(UpdateFeatureCommand request, CancellationToken cancellationToken)
+        public async Task  Handle(UpdateFeatureCommand request, CancellationToken cancellationToken)
         {
             var values = await _repository.GetByIdAsync(request.FeatureID);
-            values.Name = request.Name;
+            values.Name=request.Name;
             await _repository.UpdateAsync(values);
+
         }
     }
 }
