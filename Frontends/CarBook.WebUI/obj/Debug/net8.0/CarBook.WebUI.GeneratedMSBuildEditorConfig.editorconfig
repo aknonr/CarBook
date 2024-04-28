@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBanner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CYW5uZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

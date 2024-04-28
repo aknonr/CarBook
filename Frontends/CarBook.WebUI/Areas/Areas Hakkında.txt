@@ -1,0 +1,25 @@
+﻿Areas Nedir : 
+
+Asp.NET MVC projelerinde standart dizin mantığının dışında, daha esnek bir yapı oluşturmamızı sağlayan Area yapısını inceleyelim.Web projelerimizde kullanıcıların dışında site yetkililerinin görebildiği administrator(yönetici) paneli, ya da kullanıcı rolüne göre ulaşılabilen alanlar bulundurmamız gerekebilir.Üzerinde çalıştığımız projenin içinde bu alanları temsilen klasörler oluşturup, bu klasörüler içinde MVC katmanlarını ve URL Routing şemasını eklememiz gerekmektedir.Bu durum haliyle bir programcı için işin teferruatı ve zahmetli yanıdır.Visual Studio bize bu alanları anında istediğimiz isimde oluşturma imkanı vermektedir.Şimdi bu iş nasıl yapılır inceleyelim.
+
+İngilizce kelime olan “Area” nın Türkçe anlamı “Bölge” kelimesine eşdeğerdir.Yani konumuzun içeriğini bu terim özetlemektedir.Projede farklı bölgeler oluşturmak için Visual Studio derleyicisi bizlere yardımcı olacaktır.
+
+Örnek amaçlı bir MVC projesi oluşturalım.Oluşturduğumuz projeye sağ tıklayıp “Add” seçeneğinden sonra “Area” sekmesine tıklayalım.
+
+Karşımıza aşağıdaki gibi “Add Area” isimli bir pencere gelecektir.”Area name” alanına, bölgemizin yani dizinimizin ismini girelim.Ben projemde herhangi bir yönetim paneli tasarlayacağımı varsayıyorum ve Area mın adına “Yonetim” diyorum.
+
+“Add” butonuna bastıktan sonra Solution Explorer penceresinden projemizi incelersek eğer, “Areas” adında bir klasörün altında, “Yonetim” adında bir dizin oluşturulmuş ve içine MVC(Model View Controller) katmanları eklenmiştir.
+
+Dikkat ederseniz eğer, “Yonetim” adındaki klasörümüz altında “YonetimAreaRegistration.cs” adında bir klasör bulunmaktadır.Bu klasörü bi inceleyelim..
+
+Şimdi areaas oluşturulduğunda bize bir text sayfası çıkacak orda  şu aşağıdaki kodu Program.cs 
+
+MapContorller Route methodun aşağına eklememizi istiyor. 
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+});
