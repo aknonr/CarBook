@@ -1,4 +1,5 @@
 ﻿using CarBook.DTO.BannerDtos;
+using CarBook.DTO.BrandDtos;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Text;
@@ -88,6 +89,44 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
             return View();
         }
 
+        [HttpGet]
+        [Route("UpdateBanner/{id}")]
+
+        public async Task<IActionResult> UpdateBanner(int id)
+        {
+
+            var client = _httpClientFactory.CreateClient();
+            var resposenMessage = await client.GetAsync($"https://localhost:7049/api/Banners/{id}"); //Güncellenecek veriyi getirmemizi sağlaaycak..
+            if (resposenMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await resposenMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<UpdateBannerDto>(jsonData);
+                return View(values);
+            }
+            return View();
+        }
+
+
+
+        [HttpPost]
+        [Route("UpdateBanner/{id}")]
+
+        public async Task<IActionResult> UpdateBanner(UpdateBannerDto updateBannerDto)  //Güncelleme işlemin post tarafını sağlayacak kısım
+        {
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateBannerDto);
+            StringContent stringContet = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("https://localhost:7049/api/Banners/", stringContet);
+
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index", "AdminBanner", new { area = "Admin" });
+            }
+
+            return View();
+
+
+        }
 
 
 

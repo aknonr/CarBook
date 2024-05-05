@@ -26,12 +26,52 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Frontends\CarBook.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminAbout/CreateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BYm91dFxDcmVhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminAbout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BYm91dFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminAbout/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BYm91dFxVcGRhdGVBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminAuthor/CreateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BdXRob3JcQ3JlYXRlQXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminAuthor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BdXRob3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminAuthor/UpdateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5BdXRob3JcVXBkYXRlQXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBanner/CreateBanner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CYW5uZXJcQ3JlYXRlQmFubmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBanner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CYW5uZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminBanner/UpdateBanner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CYW5uZXJcVXBkYXRlQmFubmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCategory/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxDcmVhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/AdminCategory/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxVcGRhdGVDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aknon/Desktop/ASP.NET CORE 8 CAR BOOK/PROJE/CarBook/Frontends/CarBook.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
