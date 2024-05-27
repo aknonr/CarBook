@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarBook.Application.Features.RepositoryPattern
 {
-    public interface IGenericRepository<T> where T : class // Dışarıdan bir T değeri aalcak ve bu değer mutlaka Class olmak zorunda . 
+    public interface IGenericRepository<T> where T : class // Dışarıdan bir T değeri alacak ve bu değer mutlaka Class olmak zorunda . 
     {
 
         List<T> GetAll(); //Burada List bize burda bütün T değerlerini döndürecek..
@@ -16,6 +16,7 @@ namespace CarBook.Application.Features.RepositoryPattern
         void Remove(T entity);
 
         T GetById(int id);
+        List<T> GetCommandsByBlogId(int id);
 
 
     }

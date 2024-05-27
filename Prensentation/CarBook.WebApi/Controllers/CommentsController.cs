@@ -66,6 +66,16 @@ namespace CarBook.WebApi.Controllers
             return Ok(value);
 
         }
+        
+        [HttpGet("CommentListByBlog")]
+
+        public IActionResult CommentListByBlog(int id)
+        {
+          var value= _commentsRepository.GetCommandsByBlogId(id);
+            return Ok(value);
+
+        }
+        
 
 
     }

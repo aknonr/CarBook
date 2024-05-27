@@ -40,38 +40,6 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
         }
 
 
-        [HttpGet]
-        [Route("CreateBlog")]
-
-        public IActionResult CreateBlog()
-        {
-
-            return View();
-        }
-
-        [HttpPost]
-        [Route("CreateBlog")]
-        public async Task<IActionResult> CreateBlog(CreateBlogDto createBlogDto)
-        {
-
-            var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(createBlogDto);//Metin tabanında  gönderdiğim veriyi Json formatında gönderip serilize edecek bunun sayesinde 
-
-            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json"); //İnputlarda Türkçe karakter göndermemizi sağlar .. 
-
-            var responseMessage = await client.PostAsync("https://localhost:7049/api/Blogs", stringContent);
-
-            if (responseMessage.IsSuccessStatusCode)
-            {
-                return RedirectToAction("Index", "AdminBlog", new { area = "Admin" });
-            }
-
-
-            return View();
-        }
-
-
-
         [Route("RemoveBlog/{id}")]
 
         public async Task<IActionResult> RemoveBlog(int id)
@@ -90,44 +58,7 @@ namespace CarBook.WebUI.Areas.Admin.Controllers
 
 
 
-        [HttpGet]
-        [Route("UpdateBlog/{id}")]
-
-        public async Task<IActionResult> UpdateBlog(int id)
-        {
-
-            var client = _httpClientFactory.CreateClient();
-            var resposenMessage = await client.GetAsync($"https://localhost:7049/api/Blogs/{id}"); //Güncellenecek veriyi getirmemizi sağlaaycak..
-            if (resposenMessage.IsSuccessStatusCode)
-            {
-                var jsonData = await resposenMessage.Content.ReadAsStringAsync();
-                var values = JsonConvert.DeserializeObject<UpdateBlogDto>(jsonData);
-                return View(values);
-            }
-            return View();
-        }
-
-
-
-        [HttpPost]
-        [Route("UpdateBlog/{id}")]
-
-        public async Task<IActionResult> UpdateBlog(UpdateBlogDto updateBlogDto)  //Güncelleme işlemin post tarafını sağlayacak kısım
-        {
-            var client = _httpClientFactory.CreateClient();
-            var jsonData = JsonConvert.SerializeObject(updateBlogDto);
-            StringContent stringContet = new StringContent(jsonData, Encoding.UTF8, "application/json");
-            var responseMessage = await client.PutAsync("https://localhost:7049/api/Blogs/", stringContet);
-
-            if (responseMessage.IsSuccessStatusCode)
-            {
-                return RedirectToAction("Index", "AdminBlog", new { area = "Admin" });
-            }
-
-            return View();
-
-
-        }
+       
 
     }
 }

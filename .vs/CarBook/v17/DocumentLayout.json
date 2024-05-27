@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\areas\\admin\\controllers\\adminblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\areas\\admin\\controllers\\adminblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\prensentation\\carbook.webapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11B33C9-AFB4-4E04-BB67-699911175E5D}|Prensentation\\CarBook.WebApi\\CarBook.WebApi.csproj|solutionrelative:prensentation\\carbook.webapi\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\areas\\admin\\controllers\\adminbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\areas\\admin\\controllers\\adminbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8930B65-50A0-408A-AF7C-CA24A7F28240}|Infrastructure\\CarBook.Persistence\\CarBook.Persistence.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\infrastructure\\carbook.persistence\\repositories\\commentrepositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8930B65-50A0-408A-AF7C-CA24A7F28240}|Infrastructure\\CarBook.Persistence\\CarBook.Persistence.csproj|solutionrelative:infrastructure\\carbook.persistence\\repositories\\commentrepositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\frontends\\carbook.webui\\views\\adminlayout\\adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\views\\adminlayout\\adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{16C7788F-C521-4E35-9F9B-087B0371A54F}|Core\\CarBook.Application\\CarBook.Application.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\core\\carbook.application\\features\\repositorypattern\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C7788F-C521-4E35-9F9B-087B0371A54F}|Core\\CarBook.Application\\CarBook.Application.csproj|solutionrelative:core\\carbook.application\\features\\repositorypattern\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminBlogController.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBlogController.cs",
-              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBlogController.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBlogController.cs",
-              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBlogController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAIwFoAAAAAAAAA",
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "Prensentation\\CarBook.WebApi\\Controllers\\CommentsController.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Prensentation\\CarBook.WebApi\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "Prensentation\\CarBook.WebApi\\Controllers\\CommentsController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:34:43.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminBannerController.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBannerController.cs",
-              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBannerController.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBannerController.cs",
-              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminBannerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:27:52.458Z",
+              "WhenOpened": "2024-05-27T20:15:22.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AdminSideBarPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
-              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T20:09:08.656Z",
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\Features\\RepositoryPattern\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\CarBook.Application\\Features\\RepositoryPattern\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Core\\CarBook.Application\\Features\\RepositoryPattern\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\CarBook.Application\\Features\\RepositoryPattern\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T20:11:18.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Infrastructure\\CarBook.Persistence\\Repositories\\CommentRepositories\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\CarBook.Persistence\\Repositories\\CommentRepositories\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Infrastructure\\CarBook.Persistence\\Repositories\\CommentRepositories\\CommentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\CarBook.Persistence\\Repositories\\CommentRepositories\\CommentRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwC4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T20:10:32.629Z",
               "EditorCaption": ""
             }
           ]
