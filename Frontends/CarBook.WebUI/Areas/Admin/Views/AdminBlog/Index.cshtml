@@ -48,9 +48,7 @@
 
                                             <th>Tarih</th>
 
-                                            <th>Kaldır</th>
-
-                                            <th>Güncelle</th>
+                                            <th>Sil</th>
 
                                             <th>Blogu Aç</th>
 
@@ -72,9 +70,9 @@
                                                 <td>@item.CategoryID</td>
                                                 <td>@item.CreatedDate</td>
 
-                                                <td><a href="/Admin/AdminBlog/RemoveBlog/@item.BlogID" class="btn btn-rounded btn-outline-danger">Kaldır</a></td>
+                                                <td><a href="/Admin/AdminBlog/RemoveBlog/@item.BlogID" class="btn btn-rounded btn-outline-danger">Sil</a></td>
                                                 <td><a href="/Blog/BlogDetail/@item.BlogID" class="btn btn-rounded btn-outline-dark">Blogu Aç</a></td>
-                                                <td><a href="/Admin/AdminBlog/BlogListByBlogID/@item.BlogID" class="btn btn-rounded btn-outline-dark">Yorumlar</a></td>
+                                                <td><a href="/Admin/AdminComment/Index/@item.BlogID" class="btn btn-rounded btn-outline-warning">Yorumlar</a></td>
                                             </tr>
                                         }
 
