@@ -44,4 +44,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone (https://github.com/aknonr/CarBook.git)
 
+   ##LICENCE
+   This project is licensed under the MIT License. See the [LICENSE] file for more information.
+
 
