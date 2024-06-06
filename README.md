@@ -35,6 +35,8 @@ CarBook is a car rental web application that leverages modern software architect
 ![image](https://github.com/aknonr/CarBook/assets/133671359/448e7dea-1823-44ff-a736-8bd5b4b0b4a3)
 ![image](https://github.com/aknonr/CarBook/assets/133671359/567361a3-c8f8-441f-a84c-82f4b966825f)
 
+ # LICENCE
+   This project is licensed under the MIT License. See the [LICENSE] file for more information.
 
 ## Installation
 
@@ -44,7 +46,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone (https://github.com/aknonr/CarBook.git)
 
-   ##LICENCE
-   This project is licensed under the MIT License. See the [LICENSE] file for more information.
+
+ 
 
 
