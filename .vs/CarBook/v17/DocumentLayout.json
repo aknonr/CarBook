@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\areas\\admin\\views\\adminlocation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\areas\\admin\\views\\adminlocation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\areas\\admin\\controllers\\admintestimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\areas\\admin\\controllers\\admintestimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\areas\\admin\\controllers\\adminlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\areas\\admin\\controllers\\adminlocationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\areas\\admin\\views\\adminlocation\\createlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\areas\\admin\\views\\adminlocation\\createlocation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|c:\\users\\aknon\\desktop\\asp.net core 8 car book\\proje\\carbook\\frontends\\carbook.webui\\views\\adminlayout\\adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FB362C9-4346-49C1-82D9-197F0B0D68F5}|Frontends\\CarBook.WebUI\\CarBook.WebUI.csproj|solutionrelative:frontends\\carbook.webui\\views\\adminlayout\\adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminTestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminTestimonialController.cs",
+              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminTestimonialController.cs",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminTestimonialController.cs",
+              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminTestimonialController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T14:00:00.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminSideBarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
+              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
+              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Views\\AdminLayout\\AdminSideBarPartial.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T12:37:36.308Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -31,45 +53,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\Index.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\Index.cshtml",
-              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T19:41:42.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateLocation.cshtml",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\CreateLocation.cshtml",
-              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\CreateLocation.cshtml",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\CreateLocation.cshtml",
-              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Views\\AdminLocation\\CreateLocation.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T19:38:23.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminLocationController.cs",
-              "DocumentMoniker": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminLocationController.cs",
-              "RelativeDocumentMoniker": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminLocationController.cs",
-              "ToolTip": "C:\\Users\\aknon\\Desktop\\ASP.NET CORE 8 CAR BOOK\\PROJE\\CarBook\\Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminLocationController.cs",
-              "RelativeToolTip": "Frontends\\CarBook.WebUI\\Areas\\Admin\\Controllers\\AdminLocationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:17:27.513Z",
-              "EditorCaption": ""
             }
           ]
         }
