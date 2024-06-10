@@ -1,5 +1,6 @@
 ﻿using CarBook.Application.Interfaces.StatisticsInterfaces;
 using CarBook.Persistence.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,19 +40,25 @@ namespace CarBook.Persistence.Repositories.StatisticsRepositories
             return value;
         }
 
-        public double GetAvgRentPriceForDaily()
+        public decimal GetAvgRentPriceForDaily()
         {
-            throw new NotImplementedException();
+            int id= _context.Pricings.Where(y=>y.Name == "Günlük").Select(z=>z.PricingID).FirstOrDefault();
+            var value = _context.CarPricings.Where(w => w.PricingID == id).Average(x => x.Amount);
+            return value;
         }
 
-        public double GetAvgRentPriceForMonthly()
+        public decimal GetAvgRentPriceForMonthly()
         {
-            throw new NotImplementedException();
+            int id = _context.Pricings.Where(y => y.Name == "Aylık").Select(z => z.PricingID).FirstOrDefault();
+            var value = _context.CarPricings.Where(w => w.PricingID == id).Average(x => x.Amount);
+            return value;
         }
 
-        public double GetAvgRentPriceForWeekly()
+        public decimal GetAvgRentPriceForWeekly()
         {
-            throw new NotImplementedException();
+            int id = _context.Pricings.Where(y => y.Name == "Haftalık").Select(z => z.PricingID).FirstOrDefault();
+            var value = _context.CarPricings.Where(w => w.PricingID == id).Average(x => x.Amount);
+            return value;
         }
 
         public int GetBlogCount()
