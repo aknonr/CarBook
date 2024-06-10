@@ -24,4 +24,8 @@
     <None Include="C:\Users\aknon\Desktop\ASP.NET CORE 8 CAR BOOK\PROJE\CarBook\Core\CarBook.Application\Features\Mediator\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\CQRS\Commands\StatisticsCommands\" />
+  </ItemGroup>
+
 </Project>

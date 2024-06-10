@@ -22,6 +22,13 @@ namespace CarBook.Persistence.Repositories.CarRepositories
             _context = context;
         }
 
+        public int GetCarCount()
+        {
+            var value = _context.Cars.Count();
+
+            return value;   
+        }
+
         public List<Car> GetCarListWithBrands()
         {
             //GetCarListWithBrands: Bu metot, Cars tablosundaki tüm arabaları ve bu arabalara ait markaları içeren bir liste döndürür. Include metodu sayesinde, Cars tablosuyla birleştirilen Brand tablosundan gelen verileri içerir. Yani, bir araba nesnesi alırken aynı zamanda ilgili marka bilgilerini de alır.
